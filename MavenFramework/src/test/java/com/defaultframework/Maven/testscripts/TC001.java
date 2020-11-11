@@ -17,7 +17,7 @@ public class TC001 extends BaseTest
 		CategoryPage category = hp.clickOnMenu("Dresses");
 		ProductDetailPage pdp = category.clickOnProduct("5");
 		pdp.increaseQuantity(4);
-		pdp.decreaseQuantity(2);
+		pdp.decreaseQuantity(1);
 		pdp.selectSize("L");
 		pdp.selectColor("Blue");
 		pdp.clickOnAddToKart();
